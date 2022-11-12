@@ -1,0 +1,183 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/merlin/DAO/contracts/DAO.sol": {
+      "lastModificationDate": 1668224548076,
+      "contentHash": "7a767e092da77c0664ff6e976c2a16da",
+      "sourceName": "contracts/DAO.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../node_modules/@openzeppelin/contracts/crosschain/CrossChainEnabled.sol",
+        "../node_modules/@openzeppelin/contracts/utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "DAO"
+      ]
+    },
+    "/home/merlin/DAO/node_modules/@openzeppelin/contracts/crosschain/CrossChainEnabled.sol": {
+      "lastModificationDate": 1668216233586,
+      "contentHash": "cdff8c7d7f4945a9c3e1832716edfeef",
+      "sourceName": "@openzeppelin/contracts/crosschain/CrossChainEnabled.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "CrossChainEnabled"
+      ]
+    },
+    "/home/merlin/DAO/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1668216233586,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/home/merlin/DAO/node_modules/@openzeppelin/contracts/crosschain/errors.sol": {
+      "lastModificationDate": 1668216233626,
+      "contentHash": "6f0eb1ce3507339f0dbcee101521876b",
+      "sourceName": "@openzeppelin/contracts/crosschain/errors.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": []
+    },
+    "/home/merlin/DAO/contracts/Library.sol": {
+      "lastModificationDate": 1668224430679,
+      "contentHash": "11cd6d28b8eefcf39f89f45d4616b04b",
+      "sourceName": "contracts/Library.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Library"
+      ]
+    }
+  }
+}
